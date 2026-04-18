@@ -1,0 +1,144 @@
+{
+  "name": "policy-opportunity-decoder",
+  "display_name": "政策机会解码器",
+  "version": "1.0.0",
+  "description": "将宏观政策系统性地解码为可落地、高价值的工程咨询与设计服务项目机会",
+  "author": "区域发展规划设计咨询机构",
+  "license": "内部使用",
+  "created_date": "2024-XX-XX",
+  "updated_date": "2024-XX-XX",
+  "categories": [
+    "政策分析",
+    "项目策划",
+    "方案包装",
+    "商业咨询"
+  ],
+  "tags": [
+    "政策解码",
+    "机会识别",
+    "需求挖掘",
+    "项目策划",
+    "方案包装",
+    "V公式",
+    "SCQA"
+  ],
+  "skills": {
+    "core": [
+      "政策解码与机会扫描",
+      "需求挖掘与痛点诊断",
+      "项目策划与产品定义",
+      "方案包装与呈现"
+    ],
+    "tools": [
+      "政策-资金-项目转化漏斗",
+      "需求冰山模型",
+      "V公式价值评估",
+      "SCQA叙事框架"
+    ]
+  },
+  "entry_points": {
+    "main": "README.md",
+    "quickstart": "QUICKSTART.md",
+    "faq": "FAQ.md",
+    "checklist": "CHECKLIST.md"
+  },
+  "files": {
+    "documents": [
+      "README.md",
+      "QUICKSTART.md",
+      "FAQ.md",
+      "CHECKLIST.md",
+      "INDEX.md",
+      "RELEASE_NOTES.md",
+      "MANIFEST.json",
+      "DIRECTORY_TREE.txt"
+    ],
+    "references": [
+      "references/policy_analysis_framework.md",
+      "references/example_reports/example_national_policy.md",
+      "references/example_reports/example_local_policy.md"
+    ],
+    "templates": [
+      "assets/templates/decoding_template.md",
+      "assets/templates/v_score_calculator.json",
+      "assets/templates/elevator_pitch_template.md"
+    ],
+    "prompts": [
+      "assets/prompts/system_prompt.md",
+      "assets/prompts/step1_decoding_prompt.md",
+      "assets/prompts/step2_mining_prompt.md",
+      "assets/prompts/step3_planning_prompt.md",
+      "assets/prompts/step4_packaging_prompt.md"
+    ],
+    "scripts": [
+      "scripts/README.md",
+      "scripts/policy_decoder.py",
+      "scripts/opportunity_scanner.py",
+      "scripts/v_score_calculator.py"
+    ]
+  },
+  "dependencies": {
+    "python": ">=3.8",
+    "packages": [
+      "pandas",
+      "openpyxl",
+      "python-docx",
+      "pdfplumber"
+    ]
+  },
+  "triggers": [
+    "分析政策文件",
+    "挖掘项目机会",
+    "策划服务产品",
+    "进行方案包装",
+    "解读政策",
+    "挖掘商机"
+  ],
+  "output_format": {
+    "main_report": "《关于[政策文件名称]的项目机会解码与包装报告》",
+    "sections": [
+      "一、政策解码摘要",
+      "二、目标客户与需求洞察",
+      "三、项目机会矩阵",
+      "四、策划项目建议",
+      "五、核心项目深度包装示例",
+      "六、后续行动建议"
+    ]
+  },
+  "quality_standards": {
+    "v_score_threshold": {
+      "high_value": 12,
+      "medium_value": 8,
+      "low_value": 0
+    },
+    "minimum_opportunities": 3,
+    "minimum_clients": 2,
+    "minimum_highlights": 3
+  },
+  "compatibility": {
+    "file_formats": [
+      ".txt",
+      ".md",
+      ".docx",
+      ".doc",
+      ".pdf"
+    ],
+    "languages": [
+      "中文"
+    ],
+    "policy_levels": [
+      "国家级",
+      "省级",
+      "市级",
+      "区县级"
+    ]
+  },
+  "metadata": {
+    "total_files": 23,
+    "total_size": "约500KB",
+    "documentation_pages": 50,
+    "example_reports": 2,
+    "templates": 3,
+    "scripts": 3
+  }
+}

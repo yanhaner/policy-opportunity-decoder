@@ -1,0 +1,87 @@
+policy-opportunity-decoder/
+├── README.md                           # 主说明文档（技能总览）
+├── QUICKSTART.md                       # 快速入门指南（5分钟上手）
+├── FAQ.md                              # 常见问题解答（18个Q&A）
+├── CHECKLIST.md                        # 质量检查清单（5阶段）
+├── INDEX.md                            # 文件索引（快速查找）
+├── RELEASE_NOTES.md                    # 发布说明
+├── MANIFEST.json                       # 技能元数据
+├── DIRECTORY_TREE.txt                  # 目录结构（本文件）
+│
+├── references/                         # 参考资料
+│   ├── policy_analysis_framework.md    # 政策分析框架详解
+│   └── example_reports/                # 示例报告
+│       ├── example_national_policy.md  # 国家级政策示例
+│       └── example_local_policy.md     # 市级政策示例
+│
+├── assets/                             # 资源文件
+│   ├── templates/                      # 模板
+│   │   ├── decoding_template.md        # 解码报告模板
+│   │   ├── v_score_calculator.json     # V公式评分配置
+│   │   └── elevator_pitch_template.md  # 电梯演讲模板
+│   │
+│   └── prompts/                        # AI提示词
+│       ├── system_prompt.md            # 系统提示词
+│       ├── step1_decoding_prompt.md    # 步骤1：政策解码
+│       ├── step2_mining_prompt.md      # 步骤2：需求挖掘
+│       ├── step3_planning_prompt.md    # 步骤3：项目策划
+│       └── step4_packaging_prompt.md   # 步骤4：方案包装
+│
+└── scripts/                            # 自动化脚本
+    ├── README.md                       # 脚本使用说明
+    ├── policy_decoder.py               # 主处理脚本
+    ├── opportunity_scanner.py          # 机会扫描器
+    └── v_score_calculator.py           # V公式评分器
+
+================================================================================
+
+文件统计：
+- 主文档：8个
+- 参考资料：3个
+- 模板：3个
+- AI提示词：5个
+- 自动化脚本：3个
+- 总计：23个文件
+
+================================================================================
+
+目录说明：
+
+1. 根目录（/）
+   存放主文档和元数据文件，是技能包的入口。
+
+2. references/（参考资料）
+   存放政策分析方法论和示例报告，用于学习和参考。
+
+3. assets/（资源文件）
+   存放模板和AI提示词，用于实际分析和报告编制。
+   - templates/：各类模板文件
+   - prompts/：AI提示词文件
+
+4. scripts/（自动化脚本）
+   存放Python自动化脚本，用于辅助分析工作。
+
+================================================================================
+
+使用建议：
+
+1. 首次使用
+   - 从 README.md 开始阅读
+   - 然后阅读 QUICKSTART.md 快速上手
+   - 查看示例报告了解输出格式
+
+2. 进行分析工作
+   - 使用 templates/ 中的模板
+   - 参考 prompts/ 中的AI提示词
+   - 使用 scripts/ 中的自动化脚本
+
+3. 检查质量
+   - 使用 CHECKLIST.md 检查报告质量
+   - 参考 FAQ.md 解决常见问题
+
+4. 深入学习
+   - 阅读 references/policy_analysis_framework.md
+   - 研究示例报告
+   - 积累自己的案例库
+
+================================================================================
